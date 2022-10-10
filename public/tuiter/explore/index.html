@@ -1,96 +1,307 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
     <script src="https://kit.fontawesome.com/78382c3cc7.js" crossorigin="anonymous"></script>
-    <link href="index.css" rel="stylesheet"/>
+    <link href="./index.css" rel="stylesheet"/>
     <title>Explore</title>
 </head>
 <body>
-    <div class="wd-search">
-        <input id="search-field" placeholder="Search Twitter"/><br/>
-        <a href="../explore-settings.html"><i id="gear" class="fa-solid fa-gear"></i></a>
-    </div>
-
-    <div class="wd-link-container">
-        <div class="wd-links">
-            <a href="#" id="highlighted">For You</a>
-            <a href="#">Trending</a>
-            <a href="#">COVID 19</a>
-            <a href="#">News</a>
-            <a href="#">Sports</a>
-            <a href="#">Entertainment</a>
+    <div id="space" class="row">
+        <div class="col-sm-2 col-md-3 col-xl-3 col-xxl-3" id="nav-side-bar">
+            <h2></h2>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <i class="fa-brands fa-twitter"></i>
+                </li>
+                <li class="list-group-item">
+                    <i class="fa-solid fa-house"></i>
+                    Home
+                </li>
+                <li class="list-group-item active">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    Explore
+                </li>
+                <li class="list-group-item">
+                    <i class="fa-solid fa-bell"></i>
+                    Notifications
+                </li>
+                <li class="list-group-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    Messages
+                </li>
+                <li class="list-group-item">
+                    <i class="fa-solid fa-bookmark"></i>
+                    Bookmarks
+                </li>
+                <li class="list-group-item">
+                    <i class="fa-solid fa-list"></i>
+                    Lists
+                </li>
+                <li class="list-group-item">
+                    <i class="fa-solid fa-user"></i>
+                    Profile
+                </li>
+                <li class="list-group-item">
+                    <i class="fa-solid fa-comment-dots"></i>
+                    More
+                </li>
+                <a href="#" id="tweet-button" class="btn btn-primary rounded-pill">Tweet</a>
+             </ul> 
         </div>
-    </div>
-    
-
-    
-    <div class="wd-post-container">
-        <p class="wd-post">
-            <div class="wd-subheading">Trending in Science</div>
-            <div class="wd-mheading">Starship</div>
-            <div class="wd-subheading">55.5K Tweets</div>
-        </p>
-    </div>
-
-    <div class="wd-post-container">
-        <p class="wd-post">
-            <div class="wd-subheading">Sports * Trending</div>
-            <div class="wd-mheading">Joe Rogan</div>
-            <div class="wd-subheading">5,218 Tweets</div>
-        </p> 
-    </div> 
-    
-    <div class="wd-img-post-container">
-        <div class="wd-img-post">
-            <div class="wd-news-part">
-                <p class="wd-news-post">
-                    <div class="wd-subheading">The New York Times * Yesterday</div>
-                    <div class="wd-mheading">CNN's Cuomo Conundrum: An anchor with a brother in Trouble</div> 
-                </p> 
+        <div class="col-sm-10 col-md-9 col-xl-6 col-xxl-5">
+            <h2></h2>
+            <div class="row">
+                <div class="col-11 position-relative wd-search">
+                    <input id="search-field" placeholder="Search Twitter"/>
+                    <i id="gear" class="fa-solid fa-gear"></i>
+                </div>
             </div>
-             <div class="wd-image-part">
-                <img class="wd-news-size" src="cuomo.jpeg"/>
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" href="../for-you.html">For You</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../trending.html">Trending</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../news.html">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../sports.html">Sports</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../entertainment.html">Entertainment</a>
+                </li>
+             </ul>
+             <div class="wd-container">
+                <img 
+                    src="./images/starship.webp" 
+                    class="img-fluid" 
+                    alt="Responsive image"
+                > 
+                <div class="wd-bottom-left"><b>SpaceX's Starship</b></div>
              </div>
-        </div>
-    </div>
-    
-    <div class="wd-img-post-container">
-        <div class="wd-img-post">
-            <div class="wd-news-part">
-                <p class="wd-news-post">
-                    <div class="wd-subheading">COVID-19 * LIVE</div>
-                    <div class="wd-mheading">COVID-19: News and Updates in Massachusetts</div> 
-                </p> 
+             <div class="wd-img-post-container">
+                <div class="wd-img-post">
+                    <div class="wd-news-part">
+                        <p class="wd-news-post">
+                            <div class="wd-subheading">Web Development</div>
+                            <div class="wd-title">
+                                <b>ReactJS</b> 
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span class="wd-gray">- 2h</span>
+                            </div>
+                            <div class="wd-mheading">
+                                <b>React.js is a component based front end library that makes it very easy to build 
+                                Single Page Applications or SPAs</b>
+                            </div>
+                        </p> 
+                    </div>
+                     <div class="wd-image-part">
+                        <img class="wd-news-size" src="./images/react-logo.webp"/>
+                     </div>
+                </div>
             </div>
-             <div class="wd-image-part">
-                <img class="wd-news-size" src="mass.jpeg"/>
-             </div>
-        </div>
-    </div>
-
-    <div class="wd-img-post-container">
-        <div class="wd-img-post">
-            <div class="wd-news-part">
-                <p class="wd-news-post">
-                    <div class="wd-subheading">Bloomburg Opinion * Yesterday</div>
-                    <div class="wd-mheading">Thinking about getting a booster? Read this first</div> 
-                </p> 
+            <div class="wd-img-post-container">
+                <div class="wd-img-post">
+                    <div class="wd-news-part">
+                        <p class="wd-news-post">
+                            <div class="wd-title">
+                                <b>JavaScript</b>
+                                 <i class="fa-solid fa-circle-check"></i>
+                                 <span class="wd-gray">- 2h</span>
+                            </div>
+                            <div class="wd-mheading">
+                                <b>JavaScript is a programming language that can run on browsers 
+                                as well as desktops</b>
+                            </div> 
+                            <div class="wd-subheading">123K Tweets</div>
+                        </p> 
+                    </div>
+                     <div class="wd-image-part">
+                        <img class="wd-news-size" src="./images/javascript-logo.svg"/>
+                     </div>
+                </div>
             </div>
-             <div class="wd-image-part">
-                <img class="wd-news-size" src="booster.jpeg"/>
-             </div>
+            <div class="wd-img-post-container">
+                <div class="wd-img-post">
+                    <div class="wd-news-part">
+                        <p class="wd-news-post">
+                            <div class="wd-subheading">Web Development</div>
+                            <div class="wd-mheading">
+                                <b>jQuery</b>
+                            </div> 
+                            <div class="wd-subheading">123K Tweets</div>
+                        </p> 
+                    </div>
+                     <div class="wd-image-part">
+                        <img class="wd-news-size" src="./images/jquery-logo.webp"/>
+                     </div>
+                </div>
+            </div>
+            <div class="wd-img-post-container">
+                <div class="wd-img-post">
+                    <div class="wd-news-part">
+                        <p class="wd-news-post">
+                            <div class="wd-subheading">Web Development</div>
+                            <div class="wd-mheading">
+                                <b>NodeJS</b> 
+                                <i class="fa-solid fa-circle-check"></i>  
+                                <span class="wd-gray">- 2h</span>
+                            </div> 
+                            <div class="wd-subheading">123K Tweets </div>
+                        </p> 
+                    </div>
+                     <div class="wd-image-part">
+                        <img class="wd-news-size" src="./images/js-logo-green.png"/>
+                     </div>
+                </div>
+            </div>
         </div>
-    </div>
 
-    <div class="wd-post-container">
-        <p class="wd-post">
-            <div class="wd-subheading">Trending in United States</div>
-            <div class="wd-mheading">Wonder Bread</div>
-            <div class="wd-subheading">1,259 Tweets</div>
-        </p>
+        <div class="col-sm-0 col-md-0 col-xl-3 col-xxl-4" id="nav-side-bar">
+            <h2></h2>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <b>Who To Follow</b>
+                </li>
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="wd-follow-post-container">
+                            <div class="wd-follow-post">
+                                <div class="wd-follow-image-part">
+                                    <img 
+                                        src="./images/java_logo.png"
+                                        class="rounded-circle" 
+                                        height="50"
+                                        alt="..."
+                                    >
+                                </div>
+                                <div class="wd-follow-news-part">
+                                    <div class="col">
+                                        <div class="row wd-follow-text">
+                                            <b>Java <i class="fa-solid fa-circle-check"></i></b>
+                                            <div>@Java</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wd-follow-button-part">
+                                    <a href="#" class="btn btn-primary rounded-pill">Follow</a>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="wd-follow-post-container">
+                            <div class="wd-follow-post">
+                                <div class="wd-follow-image-part">
+                                    <img 
+                                        src="./images/space.png"
+                                        class="rounded-circle" 
+                                        height="50"
+                                        alt="..."
+                                    >
+                                </div>
+                                <div class="wd-follow-news-part">
+                                    <div class="col">
+                                        <div class="row wd-follow-text">
+                                            <b>RelativitySpace <i class="fa-solid fa-circle-check"></i></b>
+                                            <div>@RelativitySpace</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wd-follow-button-part">
+                                    <a href="#" class="btn btn-primary rounded-pill">Follow</a>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="wd-follow-post-container">
+                            <div class="wd-follow-post">
+                                <div class="wd-follow-image-part">
+                                    <img 
+                                        src="./images/vg.png"
+                                        class="rounded-circle" 
+                                        height="50"
+                                        alt="..."
+                                    >
+                                </div>
+                                <div class="wd-follow-news-part">
+                                    <div class="col">
+                                        <div class="row wd-follow-text">
+                                            <b>ViriginGalactic <i class="fa-solid fa-circle-check"></i></b>
+                                            <div>@ViriginGalactic</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wd-follow-button-part">
+                                    <a href="#" class="btn btn-primary rounded-pill">Follow</a>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="wd-follow-post-container">
+                            <div class="wd-follow-post">
+                                <div class="wd-follow-image-part">
+                                    <img 
+                                        src="./images/nasa.png"
+                                        class="rounded-circle" 
+                                        height="50"
+                                        alt="..."
+                                    >
+                                </div>
+                                <div class="wd-follow-news-part">
+                                    <div class="col">
+                                        <div class="row wd-follow-text">
+                                            <b>NASA <i class="fa-solid fa-circle-check"></i></b>
+                                            <div>@NASA</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wd-follow-button-part">
+                                    <a href="#" class="btn btn-primary rounded-pill">Follow</a>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                </li><li class="list-group-item">
+                    <div class="row">
+                        <div class="wd-follow-post-container">
+                            <div class="wd-follow-post">
+                                <div class="wd-follow-image-part">
+                                    <img 
+                                        src="./images/tesla.png"
+                                        class="rounded-circle" 
+                                        height="50"
+                                        alt="..."
+                                    >
+                                </div>
+                                <div class="wd-follow-news-part">
+                                    <div class="col">
+                                        <div class="row wd-follow-text">
+                                            <b>Tesla <i class="fa-solid fa-circle-check"></i></b>
+                                            <div>@Tesla</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wd-follow-button-part">
+                                    <a href="#" class="btn btn-primary rounded-pill">Follow</a>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                </li>
+             </ul> 
+        </div>         
     </div>
-
-   
-    
 </body>
 </html>
