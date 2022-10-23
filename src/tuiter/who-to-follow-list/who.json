@@ -1,0 +1,20 @@
+[
+ {
+   "_id": 123,
+   "userName": "NASA",
+   "handle": "NASA",
+   "avatarIcon": "https://cdn.iconscout.com/icon/free/png-256/nasa-282190.png"
+ },
+ {
+   "_id": 234,
+   "userName": "Tesla",
+   "handle": "tesla",
+   "avatarIcon": "https://b.thumbs.redditmedia.com/KmipcCTteKvvgRhMH_BkchwN1RT-WyN5fWeUdhh5zio.png"
+ },
+ {
+   "_id": 345,
+   "userName": "SpaceX",
+   "handle": "SpaceX",
+   "avatarIcon": "https://www.lampchart.com/wp-content/uploads/2022/07/IMG_20220729_132950.jpg"
+ }
+]
