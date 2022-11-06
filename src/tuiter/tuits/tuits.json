@@ -1,0 +1,44 @@
+[
+    {
+      "_id": 1,
+      "topic": "Space",
+      "userName": "SpaceX",
+      "time": "2h",
+      "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
+      "image": "https://www.lampchart.com/wp-content/uploads/2022/07/IMG_20220729_132950.jpg",
+      "liked": true,
+      "replies": 129,
+      "retuits": 264,
+      "likes": 6128,
+      "handle": "@spacex",
+      "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
+    },
+    {
+        "_id": 2,
+        "topic": "Tesla",
+        "userName": "Tesla",
+        "time": "3h",
+        "title": "Introducing our New Line of Electric Trucks",
+        "image": "https://b.thumbs.redditmedia.com/KmipcCTteKvvgRhMH_BkchwN1RT-WyN5fWeUdhh5zio.png",
+        "liked": true,
+        "replies": 145,
+        "retuits": 432,
+        "likes": 4357,
+        "handle": "@tesla",
+        "tuit": "The future is electric vehicles - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
+    },
+    {
+        "_id": 3,
+        "topic": "Space",
+        "userName": "SpaceX",
+        "time": "5h",
+        "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
+        "image": "https://www.lampchart.com/wp-content/uploads/2022/07/IMG_20220729_132950.jpg",
+        "liked": true,
+        "replies": 138,
+        "retuits": 234,
+        "likes": 682,
+        "handle": "@spacex",
+        "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
+      }
+]

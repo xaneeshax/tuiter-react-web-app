@@ -1,6 +1,18 @@
 import React from "react";
-import PostSummaryList from "../post-summary-list";
+// import PostSummaryList from "../post-summary-list";
+import TuitsList from "../tuits/TuitsList";
+import WhatsHappening from "./whats-happening";
 import "./index.css";
+
+// const ExploreComponent = () => {
+//   <>
+//     <h4>Home</h4>
+//     <WhatsHappening/>
+//     <TuitsList/>
+//   </>
+
+// }
+
 const ExploreComponent = () => {
  return(
    <>
@@ -32,7 +44,7 @@ const ExploreComponent = () => {
        <h1 className="position-absolute wd-nudge-up text-white">
          SpaceX Starship</h1>
      </div>
-     <PostSummaryList/>
+     <TuitsList/>
    </>
  );
 };

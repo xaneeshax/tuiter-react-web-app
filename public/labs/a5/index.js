@@ -1,5 +1,3 @@
-console.log('Hello World!');
-
 console.log('Variables and Constants');
 global1 = 10;
 var functionScoped = 2;
