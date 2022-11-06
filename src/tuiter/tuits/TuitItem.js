@@ -1,16 +1,15 @@
 import React, {useState} from "react";
 import {useDispatch, useSelector} from "react-redux";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import TuitStats from "./TuitStats";
-import {deleteTuit, createTuit} from "./tuits-reducer";
+import {deleteTuit} from "./tuits-reducer";
 
 
 
 const TuitItem = ({ post }
 ) => {
 
-    const tuits = useSelector(state => state.tuits);
-    const [tuit, setTuit] = useState({do: ''});
+    // const tuits = useSelector(state => state.tuits);
+    const [tuit, _] = useState({do: ''});
 
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
