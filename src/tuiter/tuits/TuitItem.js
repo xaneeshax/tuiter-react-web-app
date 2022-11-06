@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import {useDispatch, useSelector} from "react-redux";
+import {useDispatch } from "react-redux";
 import TuitStats from "./TuitStats";
 import {deleteTuit} from "./tuits-reducer";
 
@@ -9,7 +9,7 @@ const TuitItem = ({ post }
 ) => {
 
     // const tuits = useSelector(state => state.tuits);
-    const [tuit, _] = useState({do: ''});
+    const [tuit] = useState({do: ''});
 
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
