@@ -6,9 +6,10 @@ import {findTuitsThunk}
 
 const TuitsList = () => {
   const {loading} = useSelector(state => state.tuitsData)
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
   useEffect(() => {
-    dispatch(findTuitsThunk())
+    // dispatch(findTuitsThunk())
+    findTuitsThunk()
   }, [])
 
   const postsArray = useSelector(state => state.tuits)
