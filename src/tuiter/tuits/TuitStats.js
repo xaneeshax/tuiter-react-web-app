@@ -11,6 +11,13 @@ const TuitStats = ({ post }
         <i id="pic" class="fa-solid fa-retweet">{post.retuits} </i>
         <i id="pic" class="fa-solid fa-upload"></i>
     </div>
+//     <div>
+//     Likes: {tuit.likes}
+//     <i onClick={() => dispatch(updateTuitThunk({
+//       ...tuit,
+//       likes: tuit.likes + 1
+//     })} className="bi bi-heart-fill me-2 text-danger"></i>
+//   </div>
  );
 };
 export default TuitStats;
