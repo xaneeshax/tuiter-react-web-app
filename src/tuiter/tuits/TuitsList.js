@@ -7,8 +7,11 @@ import {findTuitsThunk}
 const TuitsList = () => {
   const {tuits, loading} = useSelector(state => state.tuitsData)
   const dispatch = useDispatch();
+  // eslint-disable-next-line
   useEffect(() => {
+    // eslint-disable-next-line
     dispatch(findTuitsThunk());
+  // eslint-disable-next-line
   }, [])
  
   // const postsArray = useSelector(state => state.tuits)
